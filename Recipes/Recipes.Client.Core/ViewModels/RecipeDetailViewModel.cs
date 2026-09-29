@@ -20,15 +20,15 @@ public class RecipeDetailViewModel : INotifyPropertyChanged
     public void OnPropertyChanged([CallerMemberName]string? propertyName = null) 
         => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 
-    private bool _showAllergenInformation;
-    public bool ShowAllergenInformation
+    private bool _hideAllergenInformation = true;
+    public bool HideAllergenInformation
     {
-        get => _showAllergenInformation;
+        get => _hideAllergenInformation;
         set
         {
-            if (_showAllergenInformation != value)
+            if (_hideAllergenInformation != value)
             {
-                _showAllergenInformation = value;
+                _hideAllergenInformation = value;
                 OnPropertyChanged();
             }
         }
@@ -56,4 +56,8 @@ public class RecipeDetailViewModel : INotifyPropertyChanged
     }
 
     public RecipeRatingsSummaryViewModel RatingDetail { get; set; } = new();
+
+    public int? Calories { get; set; } = 240;
+    public int? ReadyInMinutes { get; set; } = 35;
+    public DateTime LastUpdated { get; set; } = new DateTime(2020, 7, 3);
 }

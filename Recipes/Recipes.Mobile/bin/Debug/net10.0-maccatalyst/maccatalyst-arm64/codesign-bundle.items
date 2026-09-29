@@ -4,7 +4,7 @@
     <_CodesignBundle Include="Recipes.Mobile.app">
       <EnableCodeSigning>true</EnableCodeSigning>
       <CodesignSigningKey>-</CodesignSigningKey>
-      <CodesignEntitlements>/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Mobile/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent</CodesignEntitlements>
+      <CodesignEntitlements>/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Mobile/obj/Debug/net10.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent</CodesignEntitlements>
       <CodesignUseSecureTimestamp></CodesignUseSecureTimestamp>
       <CodesignAllocate>/Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate</CodesignAllocate>
       <CodesignExtraArgs></CodesignExtraArgs>
@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Mobile</SourceProjectPath>
+      <SourceProjectPath>/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Mobile</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>

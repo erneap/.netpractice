@@ -10,11 +10,15 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		c2MezGIinPILO3WA+8YDLNPGcpY=
+		gyUb107/eh4lKBc/GrpSdAZNujg=
+		</data>
+		<key>Resources/MaterialIcons-Regular.ttf</key>
+		<data>
+		fgLD8AVTL/TSQUhWfIQIl1anhIo=
 		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
-		iEtuUGCV6JM3gxS/pO33swhmpp8=
+		1rz5hdu/Y8o3gy77gkz3DfBugM0=
 		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -30,7 +34,7 @@
 		</data>
 		<key>Resources/appicon.icns</key>
 		<data>
-		UqrI40wY1qqMz407YpQETWoVltw=
+		wjqo2AglMDeUWfYDOVsz/RNiN+I=
 		</data>
 		<key>Resources/dotnet_bot.png</key>
 		<data>
@@ -43,6 +47,10 @@
 		<key>Resources/dotnet_bot@3x.png</key>
 		<data>
 		fI641eL9jR0ctyTre3xTwKkfsn8=
+		</data>
+		<key>Resources/favorite.png</key>
+		<data>
+		4EGCyr0xDFMJObFeuBW8TC+57iY=
 		</data>
 		<key>Resources/xml/microsoft_maui_essentials_fileprovider_file_paths.xml</key>
 		<data>
@@ -181,7 +189,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rT196oOLBbhhxzjWam2hQpNQNj1hiH1KGr7krKXFbAY=
+			c+LvKtYwAvKzLG019e2wTG1MLOlF0y8iSC/r0TLt6i4=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Maui.Graphics.dll</key>
@@ -247,18 +255,32 @@
 			QRfOTPnojOnEplTN2wC7+1x/CRzAATn4l4mYjun7VSg=
 			</data>
 		</dict>
+		<key>MonoBundle/Recipes.Client.Core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kh+nK97ht1NLgBuAD2ACWlIvMBZZ9iDxTT7DBczCDTQ=
+			</data>
+		</dict>
+		<key>MonoBundle/Recipes.Client.Core.pdb</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XbyTCVpmhZm+7sM9omI5dMpuX6fsXXCWKOItEdEtiXE=
+			</data>
+		</dict>
 		<key>MonoBundle/Recipes.Mobile.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dl/Qt5wHlOhIZMIOaBPmfJuqHjGhj4n3vCstOZyV3mo=
+			jyh/v+MkUMT4oue2gD1/e0Yzs2WoKGHiU/MYatHyxhs=
 			</data>
 		</dict>
 		<key>MonoBundle/Recipes.Mobile.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i9TJ0es0aJ6fbVeYQYM/BrObVqFXOW8rHgy9iFKzmUg=
+			8z65DTFa+28TaooyUNe9F+YATj+6UbRkwIVTSpUXj1w=
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
@@ -1693,14 +1715,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E8jteKJsK77JdQZ3edShiRJloamzT3KRPn6DFMIPzgg=
+			yr70kY7mYeV1Q9KXrZRONxZUIQsDN/DQQ3KzAcUoSbA=
+			</data>
+		</dict>
+		<key>Resources/MaterialIcons-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7xSfCL3S/wmk4shXNHa3sPP7sVtiOVSt5ZiZ5xdb7do=
 			</data>
 		</dict>
 		<key>Resources/MauiInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
+			zj00f2/ckmHKefsq+flmnlCZk2ll7jDX0ZwQAnd6jP8=
 			</data>
 		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
@@ -1728,7 +1757,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i2hXNksQqmRPKhsotj87jbPtwnCDBykqSfW0r9t2zyg=
+			xqhWrtMDmqA6i6/WT81n+q8VXs2PHSqHbHTjuUHNNJY=
 			</data>
 		</dict>
 		<key>Resources/dotnet_bot.png</key>
@@ -1750,6 +1779,13 @@
 			<key>hash2</key>
 			<data>
 			rSLn1k43aQXR7mL0G0rG/4hhLC1hBtjJ3USgbIFRDnk=
+			</data>
+		</dict>
+		<key>Resources/favorite.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			djT60RHLJPtVochY/Iu+FIWwYOAObi5IYV475Zz4stY=
 			</data>
 		</dict>
 		<key>Resources/xml/microsoft_maui_essentials_fileprovider_file_paths.xml</key>

@@ -2459,7 +2459,7 @@
         }
       }
     },
-    "net10.0-android/iossimulator-arm64": {
+    "net10.0-android/maccatalyst-arm64": {
       "GoogleGson/2.13.1.1": {
         "type": "package",
         "dependencies": {
@@ -5361,7 +5361,7 @@
         }
       }
     },
-    "net10.0-ios/iossimulator-arm64": {
+    "net10.0-ios/maccatalyst-arm64": {
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -6249,7 +6249,7 @@
         }
       }
     },
-    "net10.0-maccatalyst/iossimulator-arm64": {
+    "net10.0-maccatalyst/maccatalyst-arm64": {
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -10230,11 +10230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj",
+      "projectUniqueName": "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj",
       "projectName": "Recipes.Client.Core",
-      "projectPath": "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj",
+      "projectPath": "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj",
       "packagesPath": "/Users/antonerne/.nuget/packages/",
-      "outputPath": "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Client.Core/obj/",
+      "outputPath": "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -10618,11 +10618,11 @@
             "version": "[26.0.11017, 26.0.11017]"
           },
           {
-            "name": "Microsoft.iOS.Runtime.ios.net10.0_26.0",
+            "name": "Microsoft.iOS.Runtime.ios-arm64.net10.0_26.0",
             "version": "[26.0.11017, 26.0.11017]"
           },
           {
-            "name": "Microsoft.iOS.Runtime.iossimulator-arm64.net10.0_26.0",
+            "name": "Microsoft.iOS.Runtime.ios.net10.0_26.0",
             "version": "[26.0.11017, 26.0.11017]"
           }
         ],
@@ -10944,6 +10944,14 @@
           {
             "name": "Microsoft.MacCatalyst.Ref.net10.0_26.0",
             "version": "[26.0.11017, 26.0.11017]"
+          },
+          {
+            "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-arm64.net10.0_26.0",
+            "version": "[26.0.11017, 26.0.11017]"
+          },
+          {
+            "name": "Microsoft.MacCatalyst.Runtime.maccatalyst.net10.0_26.0",
+            "version": "[26.0.11017, 26.0.11017]"
           }
         ],
         "frameworkReferences": {
@@ -11235,7 +11243,7 @@
       }
     },
     "runtimes": {
-      "iossimulator-arm64": {
+      "maccatalyst-arm64": {
         "#import": []
       }
     }

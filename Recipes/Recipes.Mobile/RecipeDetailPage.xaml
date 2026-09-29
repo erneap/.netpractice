@@ -7,6 +7,7 @@
     <ContentPage.Resources>
         <conv:RatingsToStarsConverter x:Key="ratingToStarsConverter"/>
         <conv:RatingsToColorConverter x:Key="ratingToColorConverter"/>
+        <conv:InverseBoolConverter x:Key="inverseBoolConverter"/>
     </ContentPage.Resources>
     <ScrollView>
         <VerticalStackLayout Padding="10">
@@ -20,31 +21,40 @@
                     IsVisible="{Binding IsFavorite}"
                     Source="favorite.png" WidthRequest="25"/>
             </HorizontalStackLayout>
-            <Grid>
-                <Label FontFamily="MaterialIconsRegular"
-                    FontSize="18"
-                    Text="{Binding RatingDetail.MaxRating,Converter={StaticResource ratingToStarsConverter}}"
-                    TextColor="{Binding RatingDetail.AverageRating,Converter={StaticResource ratingToColorConverter},ConverterParameter=background}" />
-                
-                <Label FontFamily="MaterialIconsRegular"
-                    FontSize="18"
-                    Text="{Binding RatingDetail.AverageRating,Converter={StaticResource ratingToStarsConverter}}"
-                    TextColor="{Binding RatingDetail.AverageRating,Converter={StaticResource ratingToColorConverter}}" />
-            </Grid>
+            <Label
+                FontSize="8"
+                HorizontalOptions="End"
+                Text="{Binding LastUpdated,StringFormat='Last updated: {0:d}'}" />
+            <HorizontalStackLayout>
+                <Grid>
+                    <Label FontFamily="MaterialIconsRegular"
+                        FontSize="18"
+                        Text="{Binding RatingDetail.MaxRating,Converter={StaticResource ratingToStarsConverter}}"
+                        TextColor="{Binding RatingDetail.AverageRating,Converter={StaticResource ratingToColorConverter},ConverterParameter=background}" />
+                    
+                    <Label FontFamily="MaterialIconsRegular"
+                        FontSize="18"
+                        Text="{Binding RatingDetail.AverageRating,Converter={StaticResource ratingToStarsConverter}}"
+                        TextColor="{Binding RatingDetail.AverageRating,Converter={StaticResource ratingToColorConverter}}" />
+                </Grid>
+            </HorizontalStackLayout>
+            <Label FontSize="8"
+                Text="{Binding RatingDetail.AverageRating,StringFormat='{0:0.#} avg. rating'}" />
             <VerticalStackLayout Padding="10">
                 <HorizontalStackLayout>
                     <Label
                         FontAttributes="Italic"
                         Text="Show Allergen Information"
                         VerticalOptions="Center"/>
-                    <CheckBox IsChecked="{Binding ShowAllergenInformation,Mode=OneWayToSource}" />
+                    <CheckBox IsChecked="{Binding HideAllergenInformation,Mode=OneWayToSource,Converter={StaticResource inverseBoolConverter}}" />
                 </HorizontalStackLayout>
-                <Label IsVisible="{Binding ShowAllergenInformation,Mode=OneWay}"
+                <Label IsVisible="{Binding HideAllergenInformation,Mode=OneWay,Converter={StaticResource inverseBoolConverter}}"
                     Text="ToDo: add allergen information" />
             </VerticalStackLayout>
             <VerticalStackLayout>
                 <Button Command="{Binding SetFavoriteCommand}"
                     CommandParameter="{x:Boolean true}"
+                    IsVisible="{Binding IsFavorite,Mode=OneWay,Converter={StaticResource inverseBoolConverter}}"
                     Text="Add as favorite" />
                 <Button Command="{Binding SetFavoriteCommand}"
                     CommandParameter="{x:Boolean false}"

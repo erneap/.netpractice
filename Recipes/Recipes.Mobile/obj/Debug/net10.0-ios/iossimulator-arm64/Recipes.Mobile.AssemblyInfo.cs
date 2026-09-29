@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Recipes.Mobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b8069387c4f1e8fae6a8aa9b6396aec1f3ac1e13")]
 [assembly: System.Reflection.AssemblyProductAttribute("Recipes.Mobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Recipes.Mobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

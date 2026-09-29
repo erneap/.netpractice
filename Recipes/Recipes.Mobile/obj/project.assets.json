@@ -2499,7 +2499,7 @@
         }
       }
     },
-    "net10.0-android/iossimulator-arm64": {
+    "net10.0-android/maccatalyst-arm64": {
       "GoogleGson/2.13.1.1": {
         "type": "package",
         "dependencies": {
@@ -5475,7 +5475,7 @@
         }
       }
     },
-    "net10.0-ios/iossimulator-arm64": {
+    "net10.0-ios/maccatalyst-arm64": {
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -6431,7 +6431,7 @@
         }
       }
     },
-    "net10.0-maccatalyst/iossimulator-arm64": {
+    "net10.0-maccatalyst/maccatalyst-arm64": {
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -10487,11 +10487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Mobile/Recipes.Mobile.csproj",
+      "projectUniqueName": "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Mobile/Recipes.Mobile.csproj",
       "projectName": "Recipes.Mobile",
-      "projectPath": "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Mobile/Recipes.Mobile.csproj",
+      "projectPath": "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Mobile/Recipes.Mobile.csproj",
       "packagesPath": "/Users/antonerne/.nuget/packages/",
-      "outputPath": "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Mobile/obj/",
+      "outputPath": "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Mobile/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -10511,8 +10511,8 @@
           "framework": "net10.0-android36.0",
           "targetAlias": "net10.0-android",
           "projectReferences": {
-            "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj": {
-              "projectPath": "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj"
+            "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj": {
+              "projectPath": "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj"
             }
           }
         },
@@ -10520,8 +10520,8 @@
           "framework": "net10.0-ios26.5",
           "targetAlias": "net10.0-ios",
           "projectReferences": {
-            "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj": {
-              "projectPath": "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj"
+            "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj": {
+              "projectPath": "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj"
             }
           }
         },
@@ -10529,8 +10529,8 @@
           "framework": "net10.0-maccatalyst26.5",
           "targetAlias": "net10.0-maccatalyst",
           "projectReferences": {
-            "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj": {
-              "projectPath": "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj"
+            "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj": {
+              "projectPath": "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj"
             }
           }
         }
@@ -11502,7 +11502,7 @@
       }
     },
     "runtimes": {
-      "iossimulator-arm64": {
+      "maccatalyst-arm64": {
         "#import": []
       }
     }

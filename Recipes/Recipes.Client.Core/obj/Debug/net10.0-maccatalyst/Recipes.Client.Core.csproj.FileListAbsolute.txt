@@ -11,3 +11,17 @@
 /Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/refint/Recipes.Client.Core.dll
 /Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/Recipes.Client.Core.pdb
 /Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/ref/Recipes.Client.Core.dll
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/bin/Debug/net10.0-maccatalyst/Recipes.Client.Core.dll
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/bin/Debug/net10.0-maccatalyst/Recipes.Client.Core.pdb
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/_ProcessedBundleResourcesPath.items
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/_ProcessedContentPath.items
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/Recipes.Client.Core.csproj.AssemblyReference.cache
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/Recipes.Client.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/Recipes.Client.Core.AssemblyInfoInputs.cache
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/Recipes.Client.Core.AssemblyInfo.cs
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/Recipes.Client.Core.csproj.CoreCompileInputs.cache
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/Recipes.Client.Core.sourcelink.json
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/Recipes.Client.Core.dll
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/refint/Recipes.Client.Core.dll
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/Recipes.Client.Core.pdb
+/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/obj/Debug/net10.0-maccatalyst/ref/Recipes.Client.Core.dll

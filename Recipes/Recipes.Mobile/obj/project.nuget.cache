@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jz5YxY3nvUA=",
+  "dgSpecHash": "v0ZSySIZ1Mc=",
   "success": true,
-  "projectFilePath": "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Mobile/Recipes.Mobile.csproj",
+  "projectFilePath": "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Mobile/Recipes.Mobile.csproj",
   "expectedPackageFiles": [
     "/Users/antonerne/.nuget/packages/googlegson/2.13.1.1/googlegson.2.13.1.1.nupkg.sha512",
     "/Users/antonerne/.nuget/packages/microsoft.extensions.configuration/10.0.0/microsoft.extensions.configuration.10.0.0.nupkg.sha512",

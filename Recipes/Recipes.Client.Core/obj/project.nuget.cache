@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lm50djl4Ol4=",
+  "dgSpecHash": "1cGi3vfe6us=",
   "success": true,
-  "projectFilePath": "/Volumes/Bottom/Projects/dotnet/practice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj",
+  "projectFilePath": "/Volumes/Samsung/Projects/dotnet/dotnetpractice/Recipes/Recipes.Client.Core/Recipes.Client.Core.csproj",
   "expectedPackageFiles": [
     "/Users/antonerne/.nuget/packages/googlegson/2.13.1.1/googlegson.2.13.1.1.nupkg.sha512",
     "/Users/antonerne/.nuget/packages/microsoft.extensions.configuration/10.0.0/microsoft.extensions.configuration.10.0.0.nupkg.sha512",
@@ -119,8 +119,10 @@
     "/Users/antonerne/.nuget/packages/xamarin.kotlinx.serialization.core.jvm/1.9.0.1/xamarin.kotlinx.serialization.core.jvm.1.9.0.1.nupkg.sha512",
     "/Users/antonerne/.nuget/packages/microsoft.ios.ref.net10.0_26.0/26.0.11017/microsoft.ios.ref.net10.0_26.0.26.0.11017.nupkg.sha512",
     "/Users/antonerne/.nuget/packages/microsoft.ios.runtime.ios.net10.0_26.0/26.0.11017/microsoft.ios.runtime.ios.net10.0_26.0.26.0.11017.nupkg.sha512",
-    "/Users/antonerne/.nuget/packages/microsoft.ios.runtime.iossimulator-arm64.net10.0_26.0/26.0.11017/microsoft.ios.runtime.iossimulator-arm64.net10.0_26.0.26.0.11017.nupkg.sha512",
-    "/Users/antonerne/.nuget/packages/microsoft.maccatalyst.ref.net10.0_26.0/26.0.11017/microsoft.maccatalyst.ref.net10.0_26.0.26.0.11017.nupkg.sha512"
+    "/Users/antonerne/.nuget/packages/microsoft.ios.runtime.ios-arm64.net10.0_26.0/26.0.11017/microsoft.ios.runtime.ios-arm64.net10.0_26.0.26.0.11017.nupkg.sha512",
+    "/Users/antonerne/.nuget/packages/microsoft.maccatalyst.ref.net10.0_26.0/26.0.11017/microsoft.maccatalyst.ref.net10.0_26.0.26.0.11017.nupkg.sha512",
+    "/Users/antonerne/.nuget/packages/microsoft.maccatalyst.runtime.maccatalyst.net10.0_26.0/26.0.11017/microsoft.maccatalyst.runtime.maccatalyst.net10.0_26.0.26.0.11017.nupkg.sha512",
+    "/Users/antonerne/.nuget/packages/microsoft.maccatalyst.runtime.maccatalyst-arm64.net10.0_26.0/26.0.11017/microsoft.maccatalyst.runtime.maccatalyst-arm64.net10.0_26.0.26.0.11017.nupkg.sha512"
   ],
   "logs": []
 }
