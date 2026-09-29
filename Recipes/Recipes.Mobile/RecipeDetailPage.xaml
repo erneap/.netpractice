@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:conv="clr-namespace:Recipes.Mobile.Converters"
+             x:Class="Recipes.Mobile.RecipeDetailPage"
+             Title="RecipeDetailPage">
+    <ContentPage.Resources>
+        <conv:RatingsToStarsConverter x:Key="ratingToStarsConverter"/>
+        <conv:RatingsToColorConverter x:Key="ratingToColorConverter"/>
+    </ContentPage.Resources>
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <HorizontalStackLayout>
+                <Label 
+                    FontAttributes="Bold"
+                    FontSize="22"
+                    Text="{Binding Path=Title,Mode=OneTime}"
+                    VerticalOptions="Center"/>
+                <Image Margin="5" HeightRequest="25"
+                    IsVisible="{Binding IsFavorite}"
+                    Source="favorite.png" WidthRequest="25"/>
+            </HorizontalStackLayout>
+            <Grid>
+                <Label FontFamily="MaterialIconsRegular"
+                    FontSize="18"
+                    Text="{Binding RatingDetail.MaxRating,Converter={StaticResource ratingToStarsConverter}}"
+                    TextColor="{Binding RatingDetail.AverageRating,Converter={StaticResource ratingToColorConverter},ConverterParameter=background}" />
+                
+                <Label FontFamily="MaterialIconsRegular"
+                    FontSize="18"
+                    Text="{Binding RatingDetail.AverageRating,Converter={StaticResource ratingToStarsConverter}}"
+                    TextColor="{Binding RatingDetail.AverageRating,Converter={StaticResource ratingToColorConverter}}" />
+            </Grid>
+            <VerticalStackLayout Padding="10">
+                <HorizontalStackLayout>
+                    <Label
+                        FontAttributes="Italic"
+                        Text="Show Allergen Information"
+                        VerticalOptions="Center"/>
+                    <CheckBox IsChecked="{Binding ShowAllergenInformation,Mode=OneWayToSource}" />
+                </HorizontalStackLayout>
+                <Label IsVisible="{Binding ShowAllergenInformation,Mode=OneWay}"
+                    Text="ToDo: add allergen information" />
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                <Button Command="{Binding SetFavoriteCommand}"
+                    CommandParameter="{x:Boolean true}"
+                    Text="Add as favorite" />
+                <Button Command="{Binding SetFavoriteCommand}"
+                    CommandParameter="{x:Boolean false}"
+                    Text="Remove as favorite"/>
+            </VerticalStackLayout>
+            
+            <HorizontalStackLayout Padding="10" BindingContext="{Binding IngredientsList}">
+                <Label Text="Number of servings:"
+                    VerticalOptions="Center"/>
+                <Label Margin="10,0" FontAttributes="Bold"
+                    Text="{Binding NumberOfServings,Mode=OneWay}"
+                    VerticalOptions="Center"/>
+                <Stepper
+                    BackgroundColor="{OnPlatform WinUI={StaticResource Primary}}"
+                    Maximum="8" Minimum="1"
+                    Value="{Binding NumberOfServings,Mode=TwoWay}"
+                    VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
